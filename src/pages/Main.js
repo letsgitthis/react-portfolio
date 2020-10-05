@@ -1,7 +1,7 @@
 import React from "react";
-import './body.css';
+import '../css/main.css';
 
-function Body() {
+function Main() {
   return (
     <body className="App-header">
       <div className="nav-wrapper">
@@ -108,4 +108,4 @@ function Body() {
   );
 }
 
-export default Body;
+export default Main;
