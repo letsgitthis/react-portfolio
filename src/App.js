@@ -1,30 +1,31 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "../src/Components/Header";
 import Footer from "../src/Components/Footer";
 import Main from "./pages/Main.js";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
+    <Router>
+      <div className="App">
         <Header />
-        <Route>
-          <Main  />
-        </Route>
-        <Route>
+        <Switch>
+        <Route path="/project" component={Project}>
           <Project />
         </Route>
-        <Route>
+        <Route path="/contact" component={Contact}>
           <Contact />
         </Route>
+        <Route path="/" component={Main}>
+          <Main />
+        </Route>
+        </Switch>
         <Footer />
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 

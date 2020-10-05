@@ -1,20 +1,20 @@
 import React from "react";
-import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap';
+import { Navbar, Nav } from 'react-bootstrap';
+import { Link, useLocation } from 'react-router-dom';
 
 function Header() {
+
+  const location = useLocation();
+
   return (
     <header>
       <Navbar bg="dark" variant="dark">
-        <Navbar.Brand href="#home">John Bentley</Navbar.Brand>
+        <Navbar.Brand href="/">John Bentley</Navbar.Brand>
         <Nav className="mr-auto">
-          <Nav.Link href="#body">Home</Nav.Link>
-          <Nav.Link href="#project">Projects</Nav.Link>
-          {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
+          <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"} >Home</Link>
+          <Link to="/project" className={location.pathname === "/project" ? "nav-link active" : "nav-link"} >Projects</Link>
+          <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"} >Contact</Link>
         </Nav>
-        <Form inline>
-          <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-info">Search</Button>
-        </Form>
       </Navbar>
     </header>
   );
