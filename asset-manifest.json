@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.efe43438.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.81127fc8.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.81127fc8.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/react-portfolio/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.6237193b.chunk.js": "/react-portfolio/static/js/2.6237193b.chunk.js",
+    "static/js/2.6237193b.chunk.js.map": "/react-portfolio/static/js/2.6237193b.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.344da5dcc7914a427690cd20e453b8ae.js": "/react-portfolio/precache-manifest.344da5dcc7914a427690cd20e453b8ae.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/react-portfolio/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.efe43438.chunk.css.map": "/react-portfolio/static/css/main.efe43438.chunk.css.map",
+    "static/js/2.6237193b.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.6237193b.chunk.js.LICENSE.txt",
+    "static/media/Password Generator.gif": "/react-portfolio/static/media/Password Generator.9248b4a7.gif",
+    "static/media/Quiz.gif": "/react-portfolio/static/media/Quiz.9f295f83.gif",
+    "static/media/Rock Paper Scissors.gif": "/react-portfolio/static/media/Rock Paper Scissors.d89f543e.gif",
+    "static/media/Space Portal _ Main.gif": "/react-portfolio/static/media/Space Portal _ Main.6a237cd4.gif",
+    "static/media/Weather Dashboard.gif": "/react-portfolio/static/media/Weather Dashboard.b1b222ad.gif",
+    "static/media/Work Day Scheduler.gif": "/react-portfolio/static/media/Work Day Scheduler.9e382ae4.gif",
+    "static/media/background-image.jpeg": "/react-portfolio/static/media/background-image.4290a2f6.jpeg",
+    "static/media/profile-image.jpg": "/react-portfolio/static/media/profile-image.b08e4e29.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213b1880.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.6237193b.chunk.js",
+    "static/css/main.efe43438.chunk.css",
+    "static/js/main.81127fc8.chunk.js"
+  ]
+}
