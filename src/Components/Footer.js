@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-      <div>I am a Footer</div>
+      <div>John Bentley Portfolio | 2020</div>
   );
 }
 

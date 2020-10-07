@@ -2,14 +2,14 @@ import React from "react";
 
 function Contact() {
   return (
-    <div>
+    <div className="contact-footer">
       <br />
       <h4>
         email me at:{" "}
         <a href="mailto:jbenley1011@gmai.com">jbentley1011@gmail.com</a>
       </h4>
       <br />
-      <h4>Call me at (512)-.</h4>
+      {/* <h4>Call me at (512)-736-6484.</h4> */}
       <br />
       <h4>
         See my LinkedIn page here:

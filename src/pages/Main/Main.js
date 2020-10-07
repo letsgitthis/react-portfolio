@@ -1,40 +1,29 @@
 import React from "react";
-import "../css/main.css";
-import ProfileImage from "../images/profile-image.jpg";
-import BackgroundImage from "../images/background-image.jpeg";
+import "./main.css";
+import ProfileImage from "../../images/profile-image.jpg";
+import BackgroundImage from "../../images/background-image.jpeg";
 
 function Main() {
   return (
     <body className="App-header">
-      {/* <!-- paralax under nav --> */}
-      <div className="parallax-container">
-        <div className="parallax">
-          <img
-            className="background-image"
-            src={BackgroundImage}
-            alt="background-img"
-          />
-        </div>
-      </div>
+      <img
+        className="background-image"
+        src={BackgroundImage}
+        alt="background-img"
+      />
 
       <div>
-        <img src={ProfileImage} alt="profile-img" />
+        <img id="bio-image" src={ProfileImage} alt="profile-img" />
       </div>
 
-      {/* <!-- profile image container --> */}
-      <figure className="container-fluid">
-        <div className="row">
-          <p className="quote">"Stop saying, I can't because...</p>
-          <p className="quote">Start saying, I want to... How can I?"</p>
-        </div>
-      </figure>
+      {/* <div className="row"> */}
+      <p className="quote">"Stop saying, I can't because...</p>
+      <p className="quote">Start saying, I want to... How can I?"</p>
 
       {/* <!-- bio info --> */}
-      <div className="body-container">
-        <div className="row">
-          <div className="col m1"></div>
-          <div id="main-bio" className="col m4">
-            <p>
+      <div id="main-bio" className="col-m4">
+        <p>Welcome to my Portfolio</p>
+        {/* <p>
               I was ready for a career change and made the decision to quit my
               job, sell my house, move back home to Austin, Texas and earn
               certifications to become a Web Developer/Software Engineer. My
@@ -66,9 +55,7 @@ function Main() {
               certification from The Austin Coding Bootcamp at UT Austin. Now
               finally looking to apply what I have learned in a professional
               setting.
-            </p>
-          </div>
-        </div>
+            </p> */}
       </div>
     </body>
   );

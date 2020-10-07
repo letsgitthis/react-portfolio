@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Header from "../src/Components/Header";
 import Footer from "../src/Components/Footer";
-import Main from "./pages/Main.js";
+import Main from "./pages/Main/Main.js";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 
@@ -30,3 +30,4 @@ function App() {
 }
 
 export default App;
+

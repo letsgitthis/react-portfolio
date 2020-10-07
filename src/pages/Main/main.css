@@ -40,7 +40,7 @@ body {
   }
   
   .background-image {
-    height: 100vh;
+    height: 50vh;
     width: 100%;
   }
   
@@ -256,3 +256,7 @@ body {
     height: 20px !important;
   }
   
+  .contact-footer {
+    margin-bottom: 70vh;
+    /* background-color: #282c34; */
+  }
