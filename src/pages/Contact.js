@@ -14,7 +14,7 @@ function Contact() {
       <h4>
         See my LinkedIn page here:
         <a
-          href="https://www.linkedin.com/in/"
+          href="https://www.linkedin.com/in/jonathan-bentley-94a127190/"
           target="_blank"
           rel="noopener noreferrer"
           class="btn btn-light"
